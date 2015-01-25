@@ -76,7 +76,7 @@
   <project path="external/zlib" name="aosp/platform/external/zlib" groups="pdk" />
   <project path="frameworks/av" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_frameworks_base" />
-  <project path="frameworks/native" name="aosp/platform/frameworks/native" groups="pdk" />
+  <project path="frameworks/native" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/emoji" name="aosp/platform/frameworks/opt/emoji" />
   <project path="hardware/akm" name="aosp/platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="aosp/platform/hardware/broadcom/libbt" groups="pdk" />
