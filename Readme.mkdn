@@ -11,11 +11,11 @@ To initialize your local repository, use a command like this:
 
 For a CAF Device
 
-    repo init -u git://ubuntu-touchCAF/android_local_ubuntu-touchCAF.git -b ubuntu-touch
+    repo init -u git://github.com/ubuntu-touchCAF/android_local_ubuntu-touchCAF.git -b ubuntu-touch
 
 For Motorola Moto G
 
-    repo init -u git://ubuntu-touchCAF/android_local_ubuntu-touchCAF.git -b ubuntu-touch_falcon
+    repo init -u git://github.com/ubuntu-touchCAF/android_local_ubuntu-touchCAF.git -b ubuntu-touch_falcon
 
 Then to sync up:
 
