@@ -83,14 +83,14 @@
   <project path="hardware/broadcom/libbt" name="aosp/platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="aosp/platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="aosp/platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="ubuntu-touchCAF/android_hardware_libhardware" groups="pdk" />
+  <project path="hardware/libhardware" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_hardware_qcom_audio" groups="qcom" />
   <project path="hardware/qcom/bt" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="aosp/platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/qcom/display" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_hardware_qcom_display" groups="qcom" />
   <project path="hardware/qcom/keymaster" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_hardware_qcom_keymaster" groups="qcom" />
-  <project path="hardware/qcom/media" name="ubuntu-touchCAF/android_hardware_qcom_media" groups="qcom" />
+  <project path="hardware/qcom/media" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_hardware_qcom_media" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="aosp/platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="aosp/platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="aosp/platform/hardware/qcom/power" groups="qcom" />
