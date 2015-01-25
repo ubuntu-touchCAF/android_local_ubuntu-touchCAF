@@ -136,6 +136,7 @@
   <project path="system/vold" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_system_vold" groups="pdk" />
 
   <!-- CyanogenMod Repos -->
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-11.0" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-11.0" />
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="cm-11.0" />
   <!-- END CyanogenMod Repos -->
@@ -149,4 +150,11 @@
   <project path="ubuntu/libhybris" name="ubuntu/libhybris" revision="refs/heads/master" />
   <project path="ubuntu/platform-api" name="ubuntu/platform-api" revision="refs/heads/master" />
   <project path="ubuntu/upstart-property-watcher" name="ubuntu/upstart-property-watcher" revision="refs/heads/master" />
+  <!-- END Ubuntu Specific repos -->
+
+  <!-- Falcon Specific Stuff -->
+  <project name="ubuntu-touchCAF/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="ubuntu-touch" />
+  <project name="ubuntu-touchCAF/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="ubuntu-touch" />
+  <project name="ubuntu-touchCAF/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="ubuntu-touch" />
+  <!-- END Falcon Specfic Stuff -->
 </manifest>
