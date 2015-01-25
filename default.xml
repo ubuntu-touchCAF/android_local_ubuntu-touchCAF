@@ -15,10 +15,6 @@
   <project path="bionic" name="aosp/platform/bionic" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="development" name="aosp/platform/development" />
-  <project path="device/asus/deb" name="aosp/device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="aosp/device/asus/flo" groups="device,flo" />
-  <project path="device/asus/grouper" name="aosp/device/asus/grouper" groups="device,grouper" />
-  <project path="device/asus/tilapia" name="aosp/device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="aosp/device/common" />
   <project path="device/generic/armv7-a-neon" name="aosp/device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="aosp/device/generic/common" groups="pdk" />
