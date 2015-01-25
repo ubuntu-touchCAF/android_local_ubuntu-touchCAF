@@ -4,11 +4,14 @@
   <remote  name="phablet"
            fetch="https://code-review.phablet.ubuntu.com/p/" />
 
+  <remote  name="github"
+           fetch="git://github.com/"/>
+
   <default revision="refs/heads/phablet-4.4.2_r1"
            remote="phablet"
            sync-j="4" />
 
-  <project path="build" name="aosp/platform/build" groups="pdk" >
+  <project path="build" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_build" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="aosp/platform/abi/cpp" groups="pdk" />
@@ -22,15 +25,11 @@
   <project path="device/generic/mini-emulator-armv7-a-neon" name="aosp/device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
   <project path="device/generic/mini-emulator-x86" name="aosp/device/generic/mini-emulator-x86" groups="pdk" />
   <project path="device/generic/x86" name="aosp/device/generic/x86" groups="pdk" />
-  <project path="device/lge/hammerhead" name="aosp/device/lge/hammerhead" groups="device,hammerhead" />
-  <project path="device/lge/mako" name="aosp/device/lge/mako" groups="device,mako" />
-  <project path="device/sample" name="aosp/device/sample" groups="pdk" />
-  <project path="device/samsung/manta" name="aosp/device/samsung/manta" groups="device,manta" />
   <project path="external/aac" name="aosp/platform/external/aac" groups="pdk" />
   <project path="external/bison" name="aosp/platform/external/bison" groups="pdk" />
   <project path="external/bzip2" name="aosp/platform/external/bzip2" groups="pdk" />
   <project path="external/checkpolicy" name="aosp/platform/external/checkpolicy" groups="pdk" />
-  <project path="external/e2fsprogs" name="aosp/platform/external/e2fsprogs" groups="pdk" />
+  <project path="external/e2fsprogs" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_external_e2fsprogs" groups="pdk"/>
   <project path="external/expat" name="aosp/platform/external/expat" groups="pdk" />
   <project path="external/flac" name="aosp/platform/external/flac" groups="pdk" />
   <project path="external/freetype" name="aosp/platform/external/freetype" groups="pdk" />
@@ -60,43 +59,43 @@
   <project path="external/qemu-pc-bios" name="aosp/platform/external/qemu-pc-bios" />
   <project path="external/safe-iop" name="aosp/platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="aosp/platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="aosp/platform/external/sepolicy" groups="pdk" />
+  <project path="external/sepolicy" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_external_sepolicy" groups="pdk" />
   <project path="external/sfntly" name="aosp/platform/external/sfntly" />
-  <project path="external/skia" name="aosp/platform/external/skia" />
+  <project path="external/skia" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_external_skia" />
   <project path="external/sonivox" name="aosp/platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="aosp/platform/external/speex" groups="pdk" />
   <project path="external/sqlite" name="aosp/platform/external/sqlite" groups="pdk" />
   <project path="external/stlport" name="aosp/platform/external/stlport" groups="pdk" />
   <project path="external/strace" name="aosp/platform/external/strace" />
   <project path="external/tinyalsa" name="aosp/platform/external/tinyalsa" groups="pdk" />
-  <project path="external/tinycompress" name="aosp/platform/external/tinycompress" groups="pdk" />
+  <project path="external/tinycompress" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_external_tinycompress" groups="pdk" />
   <project path="external/tremolo" name="aosp/platform/external/tremolo" groups="pdk" />
   <project path="external/webp" name="aosp/platform/external/webp" />
   <project path="external/webrtc" name="aosp/platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="aosp/platform/external/wpa_supplicant_8" groups="pdk" />
+  <project path="external/wpa_supplicant_8" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_external_wpa_supplicant_8" groups="pdk" />
   <project path="external/yaffs2" name="aosp/platform/external/yaffs2" groups="pdk" />
   <project path="external/zlib" name="aosp/platform/external/zlib" groups="pdk" />
-  <project path="frameworks/av" name="aosp/platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="aosp/platform/frameworks/base" />
+  <project path="frameworks/av" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/base" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_frameworks_base" />
   <project path="frameworks/native" name="aosp/platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/emoji" name="aosp/platform/frameworks/opt/emoji" />
   <project path="hardware/akm" name="aosp/platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="aosp/platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="aosp/platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="aosp/platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="aosp/platform/hardware/libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="aosp/platform/hardware/libhardware_legacy" groups="pdk" />
-  <project path="hardware/qcom/audio" name="aosp/platform/hardware/qcom/audio" groups="qcom" />
-  <project path="hardware/qcom/bt" name="aosp/platform/hardware/qcom/bt" groups="qcom" />
+  <project path="hardware/libhardware" name="aubuntu-touchCAF/android_hardware_libhardware" groups="pdk" />
+  <project path="hardware/libhardware_legacy" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_hardware_libhardware_legacy" groups="pdk" />
+  <project path="hardware/qcom/audio" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_hardware_qcom_audio" groups="qcom" />
+  <project path="hardware/qcom/bt" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="aosp/platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="aosp/platform/hardware/qcom/display" groups="qcom" />
-  <project path="hardware/qcom/keymaster" name="aosp/platform/hardware/qcom/keymaster" groups="qcom" />
-  <project path="hardware/qcom/media" name="aosp/platform/hardware/qcom/media" groups="qcom" />
+  <project path="hardware/qcom/display" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_hardware_qcom_display" groups="qcom" />
+  <project path="hardware/qcom/keymaster" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_hardware_qcom_keymaster" groups="qcom" />
+  <project path="hardware/qcom/media" name="aosp/platform/hardware/qcom_media" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="aosp/platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="aosp/platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="aosp/platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="aosp/platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="aosp/platform/hardware/qcom/wlan" groups="qcom_wlan" />
+  <project path="hardware/qcom/wlan" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_hardware_qcom_wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="aosp/platform/hardware/ril" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="aosp/platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="aosp/platform/hardware/ti/omap3" />
@@ -130,11 +129,16 @@
   <project path="prebuilts/tools" name="aosp/platform/prebuilts/tools" groups="pdk,tools" revision="refs/tags/android-4.4.2_r1" />
 
   <project path="sdk" name="aosp/platform/sdk" />
-  <project path="system/core" name="aosp/platform/system/core" groups="pdk" />
+  <project path="system/core" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_system_core" groups="pdk" />
   <project path="system/extras" name="aosp/platform/system/extras" groups="pdk" />
-  <project path="system/media" name="aosp/platform/system/media" groups="pdk" />
+  <project path="system/media" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_system_media" groups="pdk" />
   <project path="system/security" name="aosp/platform/system/security" groups="pdk" />
-  <project path="system/vold" name="aosp/platform/system/vold" groups="pdk" />
+  <project path="system/vold" remote="github" revision="ubuntu-touch" name="ubuntu-touchCAF/android_system_vold" groups="pdk" />
+
+  <!-- CyanogenMod Repos -->
+  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-11.0" />
+  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="cm-11.0" />
+  <!-- END CyanogenMod Repos -->
 
   <!-- Ubuntu specific repos -->
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
