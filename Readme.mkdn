@@ -1,4 +1,4 @@
-Ubutnu Touch for CAF Devices
+Ubuntu Touch for CAF Devices
 ===========
 
 Getting Started
