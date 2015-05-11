@@ -152,6 +152,7 @@
   <project path="ubuntu/libhybris" name="ubuntu/libhybris" revision="refs/heads/master" />
   <project path="ubuntu/platform-api" name="ubuntu/platform-api" revision="refs/heads/master" />
   <project path="ubuntu/upstart-property-watcher" name="ubuntu/upstart-property-watcher" revision="refs/heads/master" />
+  <project path="ubuntu/ubuntu_prebuilt_initrd_debs" name="ubuntu/initrd/ubuntu_prebuilt_initrd_debs" revision="refs/heads/master" />
   <!-- END Ubuntu Specific repos -->
 
   <!-- Falcon Specific Stuff -->
