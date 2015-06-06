@@ -15,7 +15,7 @@ For a CAF Device
 
 For Motorola Moto G
 
-    repo init -u git://github.com/ubuntu-touchCAF/android_local_ubuntu-touchCAF.git -b ubuntu-touch_falcon
+*WIP*
 
 Then to sync up:
 
