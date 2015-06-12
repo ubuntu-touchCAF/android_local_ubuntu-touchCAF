@@ -91,7 +91,7 @@
   <project path="frameworks/base" name="ubuntu-touchCAF/android_frameworks_base" groups="pdk" remote="github" revision="ubuntu-touch" />
   <project path="frameworks/native" name="ubuntu-touchCAF/android_frameworks_native" groups="pdk" remote="github" revision="ubuntu-touch" />
   <project path="frameworks/opt/emoji" name="aosp/platform/frameworks/opt/emoji" />
-<project path="frameworks/opt/connectivity" name="CyanogenMod/android_frameworks_opt_connectivity" remote="github" revision="cm-11.0" />
+  <project path="frameworks/opt/connectivity" name="CyanogenMod/android_frameworks_opt_connectivity" remote="github" revision="cm-11.0" />
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="github" revision="cm-11.0" />
@@ -162,7 +162,8 @@
   <project path="external/koush/Superuser" name="CyanogenMod/android_external_koush_Superuser" />
   <project path="external/gpg" name="aosp/platform/external/gpg" />
   <project path="ubuntu/assets" name="ubuntu/assets" revision="refs/heads/master" />
-  <project path="ubuntu/libhybris" name="ubuntu/libhybris" revision="refs/heads/master" />
+  <project path="frameworks/native" name="ubuntu-touchCAF/android_frameworks_native" groups="pdk" remote="github" revision="ubuntu-touch" />
+  <project path="ubuntu-touchCAF/android_ubuntu_libhybris" path="ubuntu/libhybris" remote="github" revision="ubuntu-touch" />
   <project path="ubuntu/platform-api" name="ubuntu/platform-api" revision="refs/heads/master" />
   <project path="ubuntu/upstart-property-watcher" name="ubuntu/upstart-property-watcher" revision="refs/heads/master" />
   <project path="ubuntu/ubuntu_prebuilt_initrd_debs" name="ubuntu/initrd/ubuntu_prebuilt_initrd_debs" revision="refs/heads/master" />
