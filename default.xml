@@ -162,7 +162,6 @@
   <project path="external/koush/Superuser" name="CyanogenMod/android_external_koush_Superuser" />
   <project path="external/gpg" name="aosp/platform/external/gpg" />
   <project path="ubuntu/assets" name="ubuntu/assets" revision="refs/heads/master" />
-  <project path="frameworks/native" name="ubuntu-touchCAF/android_frameworks_native" groups="pdk" remote="github" revision="ubuntu-touch" />
   <project path="ubuntu-touchCAF/android_ubuntu_libhybris" path="ubuntu/libhybris" remote="github" revision="ubuntu-touch" />
   <project path="ubuntu/platform-api" name="ubuntu/platform-api" revision="refs/heads/master" />
   <project path="ubuntu/upstart-property-watcher" name="ubuntu/upstart-property-watcher" revision="refs/heads/master" />
