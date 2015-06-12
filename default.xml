@@ -16,7 +16,7 @@
   </project>
   <project path="abi/cpp" name="aosp/platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="ubuntu-touchCAF/android_bionic" groups="pdk" remote="github" revision="ubuntu-touch" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
+  <project path="bootable/recovery" name="ubuntu-touchCAF/android_bootable_recovery" groups="pdk" remote="github" revision="ubuntu-touch"/>
   <project path="development" name="aosp/platform/development" />
   <project path="device/asus/deb" name="aosp/device/asus/deb" groups="device,flo" />
   <project path="device/asus/flo" name="aosp/device/asus/flo" groups="device,flo" />
