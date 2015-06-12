@@ -91,6 +91,7 @@
   <project path="frameworks/base" name="ubuntu-touchCAF/android_frameworks_base" groups="pdk" remote="github" revision="ubuntu-touch" />
   <project path="frameworks/native" name="ubuntu-touchCAF/android_frameworks_native" groups="pdk" remote="github" revision="ubuntu-touch" />
   <project path="frameworks/opt/emoji" name="aosp/platform/frameworks/opt/emoji" />
+<project path="frameworks/opt/connectivity" name="CyanogenMod/android_frameworks_opt_connectivity" remote="github" revision="cm-11.0" />
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="github" revision="cm-11.0" />
