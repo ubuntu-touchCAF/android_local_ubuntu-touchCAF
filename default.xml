@@ -17,7 +17,7 @@
   <project path="abi/cpp" name="aosp/platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="ubuntu-touchCAF/android_bionic" groups="pdk" remote="github" revision="ubuntu-touch" />
   <project path="bootable/recovery" name="ubuntu-touchCAF/android_bootable_recovery" groups="pdk" remote="github" revision="ubuntu-touch"/>
-  <project path="development" name="aosp/platform/development" />
+  <project path="development" name="ubuntu-touchCAF/android_development" remote="github" revision="ubuntu-touch"/>
   <project path="device/asus/deb" name="aosp/device/asus/deb" groups="device,flo" />
   <project path="device/asus/flo" name="aosp/device/asus/flo" groups="device,flo" />
   <project path="device/asus/grouper" name="aosp/device/asus/grouper" groups="device,grouper" />
@@ -53,12 +53,12 @@
   <project path="external/harfbuzz" name="aosp/platform/external/harfbuzz" />
   <project path="external/harfbuzz_ng" name="aosp/platform/external/harfbuzz_ng" />
   <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" groups="pdk" remote="github" revision="cm-11.0" />
-  <project path="external/jhead" name="aosp/platform/external/jhead" groups="pdk" />
+  <project path="external/jhead" name="ubuntu-touchCAF/android_external_jhead" groups="pdk" remote="github" revision="ubuntu-touch" />
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/kernel-headers" name="aosp/platform/external/kernel-headers" />
   <project path="external/libgsm" name="aosp/platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="aosp/platform/external/liblzf" groups="pdk" />
-  <project path="external/libnl-headers" name="aosp/platform/external/libnl-headers" groups="pdk" />
+  <project path="external/libnl-headers" name="CyanogenMod/android_external_libnl-headers" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/libpng" name="aosp/platform/external/libpng" groups="pdk" />
   <project path="external/libppp" name="aosp/platform/external/libppp" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" remote="github" revision="cm-11.0" />
@@ -67,7 +67,7 @@
   <project path="external/mksh" name="aosp/platform/external/mksh" groups="pdk" />
   <project path="external/openssl" name="ubuntu-touchCAF/android_external_openssl" groups="pdk" remote="github" revision="ubuntu-touch" />
   <project path="external/protobuf" name="aosp/platform/external/protobuf" groups="pdk" />
-  <project path="external/qemu" name="aosp/platform/external/qemu" />
+  <project path="external/qemu" name="ubuntu-touchCAF/android_external_qemu" remote="github" revision="ubuntu-touch" />
   <project path="external/qemu-pc-bios" name="aosp/platform/external/qemu-pc-bios" />
   <project path="external/safe-iop" name="aosp/platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="aosp/platform/external/scrypt" groups="pdk" />
@@ -76,12 +76,12 @@
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="github" revision="cm-11.0" />
   <project path="external/sonivox" name="aosp/platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="aosp/platform/external/speex" groups="pdk" />
-  <project path="external/sqlite" name="aosp/platform/external/sqlite" groups="pdk" />
+  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/stlport" name="aosp/platform/external/stlport" groups="pdk" />
   <project path="external/strace" name="aosp/platform/external/strace" />
   <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" remote="github" revision="cm-11.0" />
-  <project path="external/tinycompress" name="aosp/platform/external/tinycompress" groups="pdk" />
-  <project path="external/tremolo" name="aosp/platform/external/tremolo" groups="pdk" />
+  <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="external/tremolo" name="CyanogenMod/android_external_tremolo" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/webp" name="aosp/platform/external/webp" />
   <project path="external/webrtc" name="aosp/platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="github" revision="cm-11.0" />
@@ -110,7 +110,7 @@
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" remote="github" revision="cm-11.0" />
-  <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" groups="caf" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/media-caf-new" name="ubuntu-touchCAF/android_hardware_qcom_media-caf-new" groups="caf" remote="github" revision="ubuntu-touch" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/msm8x74" name="CyanogenMod/android_hardware_qcom_msm8x74" groups="qcom_msm8x74" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-11.0" />
