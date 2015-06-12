@@ -61,7 +61,7 @@
   <project path="external/libnl-headers" name="aosp/platform/external/libnl-headers" groups="pdk" />
   <project path="external/libpng" name="aosp/platform/external/libpng" groups="pdk" />
   <project path="external/libppp" name="aosp/platform/external/libppp" />
-  <project path="external/libselinux" name="aosp/platform/external/libselinux" groups="pdk" />
+  <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/libvpx" name="aosp/platform/external/libvpx" groups="pdk" />
   <project path="external/mksh" name="aosp/platform/external/mksh" groups="pdk" />
